@@ -26,7 +26,7 @@ module.exports = function countStudents(path) {
   console.log(`Number of students: ${count}`);
   // console.log(fields);
   for (const [key, value] of Object.entries(fields)) {
-    console.log(`Number of students in ${key}: ${value.length}. List: ${value}`);
+    console.log(`Number of students in ${key}: ${value.length}. List: ${value.join(', ')}`);
   }
   // console.log(data);
 };
