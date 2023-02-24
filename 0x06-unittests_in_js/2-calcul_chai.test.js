@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const assert = require('assert');
+const assert = require('expect');
 const calculateNumber = require("./2-calcul_chai.js");
 
 expect(calculateNumber('SUM', 1.4, 4.5)).to.equal(6);
