@@ -15,11 +15,8 @@ describe("getPaymentTokenFromAPI", () => {
       expect(value.data).to.equal("Successful response from the API");
     });
   });
-  /*
   it('test fail', () => {
-    const a = getPaymentTokenFromAPI(true);
-    a.then((value) => {
-      expect(value).to.equal(undefined);
+    const a = getPaymentTokenFromAPI(false);
+    expect(a).to.equal(undefined);
   });
-  */
 });
