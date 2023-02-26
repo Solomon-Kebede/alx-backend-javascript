@@ -12,7 +12,7 @@ describe("getPaymentTokenFromAPI", () => {
       */
     const a = getPaymentTokenFromAPI(true);
     a.then((value) => {
-      expect(value.data).to.equal("Successful response from the API");
+      expect(value).to.equal({data: 'Successful response from the API' });
     });
   });
   it('test fail', () => {
