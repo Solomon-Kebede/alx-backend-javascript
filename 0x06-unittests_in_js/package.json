@@ -8,5 +8,8 @@
     "eslint-plugin-react": "^7.32.2",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "jest": "^29.4.3"
   }
 }
